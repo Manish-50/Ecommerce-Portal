@@ -34,7 +34,6 @@
 
 ## 📦 Monorepo Layout
 
-```
 repo-root/
 ├─ frontend/              # Vite React app
 │  ├─ src/
@@ -94,7 +93,7 @@ MONGO_URI=mongodb+srv://<user>:<pass>@<cluster>/<db>?retryWrites=true&w=majority
 JWT_SECRET=supersecret_change_me
 NODE_ENV=development
 CLIENT_URL=http://localhost:5173
-CORS_ORIGIN=http://localhost:5173
+CORS_ORIGIN=http://localhost:5173 
 COOKIE_NAME=token
 COOKIE_SECURE=false
 ```
@@ -281,8 +280,6 @@ app.use((req, res, next) => {
 2. Commit changes: `git commit -m "feat: add awesome"`
 3. Push: `git push origin feat/awesome`
 4. Open a PR 🚀
-
-Special thanks to **Ayush** for contributing to this project 🙌
 
 
 ---
